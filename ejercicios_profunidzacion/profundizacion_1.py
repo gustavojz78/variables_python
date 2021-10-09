@@ -31,3 +31,30 @@ E) Exponente/Potencia
 
 print('¡Nuestra primera calculadora!')
 # Empezar aquí la resolución del ejercicio
+print("Bienvenido. Seleccione una opción : \n 1-SUMA \n 2-RESTA \n 3-MULTIPLICAR \n 4-DIVIDIR \n 5-POTENCIA")
+numero=int(input("seleccione opción: "))
+if  numero == 1 :
+    num1 = float(input("ingrese primer numero: "))
+    num2 = float(input("ingrese segundo numero: "))
+    suma = num1 + num2
+    print("el resultado de la suma es : ", suma)
+if   numero == 2 :
+    num1 = float(input("ingrese primer numero: "))
+    num2 = float(input("ingrese segundo numero: "))
+    resta = num1 - num2
+    print("el resultado de la resta es : ", resta)  
+if   numero == 3 :
+    num1 = float(input("ingrese primer numero: "))
+    num2 = float(input("ingrese segundo numero: "))
+    multi = num1 * num2
+    print("el resultado de la multiplicación es : ", multi)    
+if   numero == 4 :
+    num1 = float(input("ingrese primer numero: "))
+    num2 = float(input("ingrese segundo numero diferente a cero: "))
+    div = num1 / num2
+    print("el resultado de la división es : ", div) 
+if   numero == 5 :
+    num1 = int(input("ingrese numero base :"))
+    num2 = int(input("ingrese exponente :"))
+    pot = num1 ** num2
+    print("el resultado de ", num1, "elevado a la ", num2, "es :", pot)   
