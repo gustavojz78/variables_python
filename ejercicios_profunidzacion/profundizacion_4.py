@@ -45,3 +45,9 @@ Cualquier duda con el método split pueden consultarla por el campus
 
 print('Jugando con texto')
 # Empezar aquí la resolución del ejercicio
+nombre_madre=input("Escriba el nombre y apellido de su madre :")
+nomM, apeM = nombre_madre.split(" ")
+nombre_padre=input("Escriba el nombre y apellido de su padre :")
+nomP, apeP = nombre_padre.split(" ")
+nombre=input("Escripa sus nombres :")
+print("Usted se llama :", nombre , apeP , apeM , " y es hijo de ", nombre_madre , "y" , nombre_padre)
